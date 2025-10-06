@@ -1,13 +1,13 @@
-import "./ItemCard.css";
-import ItemCardClient from "./ItemCardClient";
 
+import ItemCardClient from "./ItemCardClient";
+import "../item/ItemCard.css";
 
 
 const ItemCard = () => {
   return (
-    <div className="ItemCard">
-        <ItemCardClientem/>
-    </div>
+
+    <ItemCardClient />
+
   )
 }
 
