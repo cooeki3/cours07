@@ -1,6 +1,5 @@
 "use client";
 import Card from "./Card";
-import Header from "./Header.jsx";
 import "./ClientPage.css";
 import contenu from "./../_data/contenu.json";
 
