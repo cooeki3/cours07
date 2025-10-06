@@ -20,7 +20,9 @@
     & h2 {
         font-family: StormGust, sans-serif;
         font-size: 6rem;
-        color: orange;
+        color: rgb(255, 94, 0);
+        width: 100%;
+        text-align: center;
     }
 
     & img {
@@ -39,7 +41,10 @@
         font-family: HighwayGothic, sans-serif;
     }
 }
-
+#containerTitreItem{
+    overflow: hidden;
+    width: 100%;
+}
 .divAbsoluteItem {
     position: absolute;
     width: 75%;
