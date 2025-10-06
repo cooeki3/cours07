@@ -3,7 +3,7 @@ import ItemCardClient from "./_components/item/ItemCardClient";
 
 export default function Home() {
   return (
-    // <ClientPage/>
-    <ItemCardClient/>
+    <ClientPage />
+    // <ItemCardClient/>
   );
 }
