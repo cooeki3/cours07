@@ -1,6 +1,7 @@
 .card {
   max-width: 300px;
   height: 600px;
+  border: 1px solid white;
 }
 
 .card-img {
@@ -13,6 +14,7 @@
     font-size: 1.5rem;
     padding-top: 1rem;
     color: orange;
+    font-family: "StormGust";
 }
 
 .card-description {
