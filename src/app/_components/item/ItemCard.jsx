@@ -1,14 +1,8 @@
-
 import ItemCardClient from "./ItemCardClient";
-import "../item/ItemCard.css";
-
+import "./ItemCard.css";
 
 const ItemCard = () => {
-  return (
+  return <ItemCardClient />;
+};
 
-    <ItemCardClient />
-
-  )
-}
-
-export default ItemCard
+export default ItemCard;

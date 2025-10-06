@@ -6,7 +6,7 @@ const Header = () => {
       <h1 className="h1-header">Halloween Store!</h1>
       <h2 className="h2-header">
         Venez acheter nos sacs à dos méticuleusement kidnappés par nos
-        professionnels
+        professionnels.
       </h2>
     </header>
   );
