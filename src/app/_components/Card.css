@@ -1,24 +1,29 @@
 .card {
-  max-width: 300px;
-  height: 600px;
-  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid white; */
+  background-color: rgba(255, 255, 255, 0.185);
+  padding: 1.3rem;
+  border-radius: 20px;
 }
 
 .card-img {
-  width: 300px;
-  height: 400px;
+  width: 100%;
+  height: 350px;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .card-titre {
-    font-size: 1.5rem;
-    padding-top: 1rem;
-    color: orange;
-    font-family: "StormGust";
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  color: orange;
+  font-family: "StormGust";
 }
 
 .card-description {
-    font-size: 0.9rem;
-    padding-top: 0.3rem;
-    color: rgb(204, 204, 204);
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  color: rgb(204, 204, 204);
 }
