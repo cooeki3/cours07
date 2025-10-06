@@ -1,7 +1,7 @@
 "use client";
 import Card from "./Card";
 import "./ClientPage.css";
-import contenu from "./_data/contenu.json";
+import contenu from "./../_data/contenu.json";
 
 const ClientPage = () => {
   return (
