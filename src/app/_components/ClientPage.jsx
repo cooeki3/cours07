@@ -1,11 +1,13 @@
 "use client";
 import Card from "./Card";
+import Header from "./Header";
 import "./ClientPage.css";
 import contenu from "./../_data/contenu.json";
 
 const ClientPage = () => {
   return (
     <div className="page">
+      <Header />
       <div className="card-container">
         {contenu.map((item, index) => (
           <Card
@@ -16,7 +18,6 @@ const ClientPage = () => {
           />
         ))}
       </div>
-      <Header />
     </div>
   );
 };
