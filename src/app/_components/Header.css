@@ -1,0 +1,15 @@
+h1.h1-header {
+  color: rgb(255, 94, 0);
+  font-family: "StormGust";
+  font-size: 200px;
+  text-align: center;
+  padding: 50px;
+}
+
+h2.h2-header {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 100;
+}
